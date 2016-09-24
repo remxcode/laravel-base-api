@@ -180,9 +180,13 @@ return [
         App\Providers\LocalServiceProvider::class,
         Laravel\Passport\PassportServiceProvider::class,
 
-        Barryvdh\Debugbar\ServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
         Laracasts\Flash\FlashServiceProvider::class,
+        Prettus\Repository\Providers\RepositoryServiceProvider::class,
+        InfyOm\Generator\InfyOmGeneratorServiceProvider::class,
+        InfyOm\AdminLTETemplates\AdminLTETemplatesServiceProvider::class,
+
+        Barryvdh\Debugbar\ServiceProvider::class,
         Overtrue\LaravelWechat\ServiceProvider::class,
         Overtrue\LaravelSocialite\ServiceProvider::class,
 
